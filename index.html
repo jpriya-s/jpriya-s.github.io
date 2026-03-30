@@ -1,111 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Full-Stack Developer ePortfolio | Jeyapriya Saravanakumar</title>
-  <style>
-    body {font-family: "Segoe UI", Arial, sans-serif; margin: 0; background: #f8f9fa; color: #333; line-height: 1.6;}
-    header {background: linear-gradient(90deg, #2c3e50, #4a69bd); color: white; padding: 2.5rem 1rem; text-align: center;}
-    header h1 {margin: 0; font-size: 2.5rem;}
-    header p {margin-top: 0.5rem; font-size: 1.2rem;}
-    nav {background: #34495e; padding: 1rem; text-align: center;}
-    nav a {color: white; margin: 0 1rem; text-decoration: none; font-weight: bold;}
-    nav a:hover {text-decoration: underline;}
-    section {padding: 3rem 2rem; max-width: 1000px; margin: auto; background: white; border-radius: 10px;
-             box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 2rem;}
-    section h2 {color: #2c3e50; border-bottom: 3px solid #4a69bd; padding-bottom: 0.5rem; margin-bottom: 1.5rem;}
-    .projects {display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;}
-    .project-card {background: #fdfdfd; padding: 1.5rem; border-radius: 10px; border: 1px solid #ddd;
-                   box-shadow: 0 2px 6px rgba(0,0,0,0.05);}
-    .project-card h3 {color: #34495e;}
-    .project-card a {display: inline-block; margin-top: 10px; color: #4a69bd; text-decoration: none; font-weight: bold;}
-    .project-card a:hover {text-decoration: underline;}
-    .self-assessment {background: #f2f6fc; border-left: 6px solid #4a69bd; padding: 1.5rem; border-radius: 10px;}
-    footer {background: #2c3e50; color: white; text-align: center; padding: 1rem; margin-top: 2rem;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Data Analyst Portfolio | Jeyapriya Saravanakumar</title>
+
+<style>
+
+body{
+font-family:"Segoe UI",Arial,sans-serif;
+margin:0;
+background:#f8f9fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(90deg,#2c3e50,#4a69bd);
+color:white;
+padding:3rem 1rem;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:2.6rem;
+}
+
+header p{
+font-size:1.3rem;
+margin-top:8px;
+}
+
+nav{
+background:#34495e;
+padding:1rem;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 1rem;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+section{
+padding:3rem 2rem;
+max-width:1100px;
+margin:auto;
+background:white;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+margin-top:2rem;
+}
+
+section h2{
+color:#2c3e50;
+border-bottom:3px solid #4a69bd;
+padding-bottom:0.5rem;
+margin-bottom:1.5rem;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:1.5rem;
+}
+
+.project-card{
+background:#fdfdfd;
+padding:1.5rem;
+border-radius:10px;
+border:1px solid #ddd;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.project-card h3{
+color:#34495e;
+}
+
+.project-card a{
+display:inline-block;
+margin-top:10px;
+color:#4a69bd;
+text-decoration:none;
+font-weight:bold;
+}
+
+.project-card a:hover{
+text-decoration:underline;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:1rem;
+}
+
+.skill-box{
+background:#f2f6fc;
+padding:1rem;
+border-radius:8px;
+}
+
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:1rem;
+margin-top:2rem;
+}
+
+.button{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#4a69bd;
+color:white;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.button:hover{
+background:#3b54a0;
+}
+
+</style>
 </head>
+
 <body>
-  <header>
-    <h1>Jeyapriya Saravanakumar</h1>
-    <p>Full-Stack Developer | ePortfolio</p>
-  </header>
 
-  <nav>
-    <a href="#self-assessment">Self-Assessment</a>
-    <a href="#artifacts">Artifacts</a>
-    <a href="#code-review">Code Review</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header>
+<h1>Jeyapriya Saravanakumar</h1>
+<p>Data Analyst | SQL | Python | Tableau | Power BI</p>
+<a class="button" href="Jeyapriya_Data_Analyst_Resume.pdf">Download Resume</a>
+</header>
 
-  <section id="self-assessment">
-    <h2>Professional Self-Assessment</h2>
-    <div class="self-assessment">
-      <p>Over the course of my Computer Science program, 
-      I have evolved from a student of theory to a confident <strong>Full-Stack Developer</strong>.
-      Through my <em>Event Planner Application</em> project, I demonstrated comprehensive skills
-      in software engineering, algorithms, and database design while enhancing my ability to create
-      secure, scalable, and user-friendly systems.</p>
-      <p>This ePortfolio highlights my technical proficiency, problem-solving mindset, and
-      professional growth through real-world, data-driven, and user-centered software solutions.
-      It includes enhanced artifacts demonstrating my abilities in
-      <strong>Software Design and Engineering</strong>,
-      <strong>Algorithms and Data Structures</strong>, and
-      <strong>Databases</strong>.</p>
-      <p>My career goal is to work as a <strong>Full-Stack Developer</strong> specializing in
-      building modern, secure web applications that deliver meaningful user experiences.</p>
-      <p><a href="Professional_Self_Assesment.docx" download>📄 Download Full Self-Assessment</a></p>
-    </div>
-  </section>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certifications</a>
+<a href="#contact">Contact</a>
+</nav>
 
-  <section id="artifacts">
-    <h2>Artifacts & Enhancements</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Software Design & Engineering</h3>
-        <p><strong>Artifact:</strong> Event Planner Web Application (ReactJS + Spring Boot)</p>
-        <p>Enhanced the application architecture using layered MVC design (Controller → Service → Repository).
-        Integrated OpenAPI for API documentation and modularized components for UI reusability.</p>
-        <a href="https://github.com/jpriya-s/Event_Planner_App" target="_blank">View Source on GitHub</a><br>
-        <a href="SoftwareDesign_And_Engineering_Narrative.docx" target="_blank">Read Enhancement Narrative</a>
-      </div>
+<section id="about">
 
-      <div class="project-card">
-        <h3>Algorithms & Data Structures</h3>
-        <p><strong>Artifact:</strong> Event Planner Web Application</p>
-        <p>Implemented Sorting algorithm using Comparator feature to sort events by date and priority. 
-        Used Collection datastructure List to store events and itererate. </p>
-        <a href="https://github.com/jpriya-s/Event_Planner_App" target="_blank">View Source on GitHub</a><br>
-        <a href="Algorithms_And_Datastructure_Narrative.docx" target="_blank">Read Enhancement Narrative</a>
-      </div>
+<h2>About Me</h2>
 
-      <div class="project-card">
-        <h3>Databases</h3>
-        <p><strong>Artifact:</strong> Event Planner Database (PostgreSQL)</p>
-        <p>Designed an optimized relational schema with foreign key constraints for user, event, and notification tables.
-        Implemented query optimization, indexing, and entity relationship documentation in ERD.</p>
-        <a href="https://github.com/jpriya-s/Event_Planner_App" target="_blank">View Schema on GitHub</a><br>
-        <a href="Databases_Narrative.docx" target="_blank">Read Enhancement Narrative</a>
-      </div>
-    </div>
-  </section>
+<p>
+I am a Data Analyst with a strong foundation in data analytics, SQL querying, and dashboard development.
+I recently graduated with a <strong>Bachelor of Science in Computer Science from Southern New Hampshire University (GPA 4.0)</strong>.
+</p>
 
-  <section id="code-review">
-    <h2>Informal Code Review</h2>
-    <p>The code review video provides a walkthrough of the original Event Planner project and outlines
-    the planned enhancements across all three categories — software design, algorithms, and databases.
-    It explains architectural improvements, coding standards, and security considerations.</p>
-    <p>🎥 <a href="EventPlannerApp_CodeReview.mp4" target="_blank">Watch My Code Review Video</a></p>
-  </section>
+<p>
+I enjoy transforming raw datasets into meaningful insights using tools such as 
+<strong>Python, SQL, Tableau, and Power BI</strong>.
+My work focuses on <strong>data cleaning, exploratory data analysis, and interactive dashboards</strong>
+that help uncover trends and support data-driven decision making.
+</p>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:jeyapriya.s@snhu.edu">jeyapriya.saravanakumar@snhu.edu</a></p>
-    <p>GitHub: <a href="https://github.com/jpriya-s" target="_blank">github.com/jpriya-s</a></p>
-  </section>
+<p>
+Through my projects, I have analyzed datasets including bike share usage data and loan approval data
+to identify patterns and key factors influencing business outcomes.
+</p>
 
-  <footer>
-    <p>&copy; 2025 Jeyapriya Saravanakumar. All Rights Reserved.</p>
-  </footer>
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill-box">
+<strong>Programming & Analysis</strong>
+<ul>
+<li>Python</li>
+<li>SQL</li>
+<li>Pandas</li>
+<li>NumPy</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<strong>Data Visualization</strong>
+<ul>
+<li>Tableau</li>
+<li>Power BI</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<strong>Tools</strong>
+<ul>
+<li>Excel</li>
+<li>Jupyter Notebook</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>VS Code</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<strong>Analytics Techniques</strong>
+<ul>
+<li>Data Cleaning</li>
+<li>Exploratory Data Analysis</li>
+<li>Dashboard Development</li>
+<li>Data Storytelling</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Featured Data Analytics Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Bike Share Data Analysis Dashboard</h3>
+
+<p>
+Analyzed bike share usage data to identify rider behavior patterns,
+peak usage hours, and high-demand stations.
+</p>
+
+<p>
+Performed data cleaning and exploratory analysis using Python and SQL,
+and created interactive Tableau dashboards visualizing usage trends.
+</p>
+
+<p><strong>Tools:</strong> Python, SQL, Tableau, Pandas</p>
+
+<p><strong>Dashboard Screenshots:</strong><br><br> 
+    <img src="images\bikeshare\RideType_WeekDay_Vs_WeekEnd.png" width="100%"><br>
+    <img src="images\bikeshare\Rides_Duration.png" width="100%">  
+</p>
+
+<a href="https://github.com/jpriya-s/data-analysis-bike-share" target="_blank">
+View Project on GitHub
+</a>
+
+</div>
+
+
+<div class="project-card">
+<h3>Loan Approval Data Analysis</h3>
+
+<p>
+Analyzed loan application data to identify key factors influencing
+loan approval decisions.
+</p>
+
+<p>
+Used SQL queries and Python analysis to examine relationships between
+credit history, income, and loan approval outcomes.
+</p>
+
+<p><strong>Tools:</strong> Python, SQL, Pandas, Matplotlib, Seaborn</p>
+
+<p><strong>Dashboard Screenshots:</strong> <br>
+    <img src="images\loananalysis\boxplot.png" width="100%"><br>
+    <img src="images\loananalysis\scatterplot.png" width="100%"><br>
+    <img src="images\loananalysis\heatmap.png" width="100%">  
+</p>
+
+<a href="https://github.com/jpriya-s/loan-approval-analysis" target="_blank">
+View Project on GitHub
+</a>
+
+</div>
+
+
+<div class="project-card">
+<h3>Sales Data Analysis Dashboard</h3>
+
+<p>
+Analyzing retail sales data to identify revenue trends,
+top performing products, and regional sales insights.
+</p>
+
+<p>
+Interactive Power BI dashboards visualize key sales metrics
+and support business performance monitoring.
+</p>
+
+<p><strong>Tools:</strong> Power BI, SQL, Python</p>
+
+</div>
+
+
+<div class="project-card">
+<h3>Customer Churn Analysis</h3>
+
+<p>
+Analyzing customer behavior data to identify churn patterns
+and key drivers of customer retention.
+</p>
+
+<p>
+Exploratory analysis and visualizations highlight high-risk
+customer segments and retention opportunities.
+</p>
+
+<p><strong>Tools:</strong> Python, SQL, Pandas</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="certifications">
+
+<h2>Certifications</h2>
+
+<ul>
+
+<li>
+<strong>Google Data Analytics Professional Certificate</strong>
+</li>
+
+<li>
+<strong>Microsoft Power BI Data Analyst Professional Certificate</strong>
+</li>
+
+</ul>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: 
+<a href="mailto:jpriya.sara@gmail.com">
+jpriya.sara@gmail.com
+</a>
+</p>
+
+<p>GitHub: 
+<a href="https://github.com/jpriya-s" target="_blank">
+github.com/jpriya-s
+</a>
+</p>
+
+<p>LinkedIn: 
+<a href="https://www.linkedin.com/in/jeyapriya-saravanakumar/" target="_blank">
+www.linkedin.com/in/jeyapriya-saravanakumar/
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>
+© 2025 Jeyapriya Saravanakumar | Data Analyst Portfolio
+</p>
+
+</footer>
+
 </body>
 </html>
